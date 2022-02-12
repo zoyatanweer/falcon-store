@@ -21,7 +21,7 @@
 .right-clear-btn{
     color: var(--primary-color);
     font-size: 1.7rem;
-    background-color: #f8f9fa;
+    background-color: var(--background-color);
     height: 2rem;
     width: 12rem;
     margin: 5px;
@@ -43,7 +43,6 @@
 }
 .filter-section-title{
     padding: 2rem 1rem 5px 0rem;
-  
 }
 .filter-item{
     display: flex;
