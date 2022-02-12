@@ -44,14 +44,14 @@ picture {
 :root{
     --primary-color: #f72585;
     --secondary-color: #ff4d6d;
-    --background-color: #f0ecec;
-    --navigation-container-bg: #f8f9fa;
+    --background-color: #f8f9fa;
     --navigation-container-shadow: #6c757d;
     --navigation-color: #212529;
     --desktop-searchbar-bg: #e9ecef; 
     --desktop-searchbar-border: #f7f7f7;
     --form-bg-color: #ffffff;
     --form-input-border-color: #ced4da;
+    --login-signup-page: #f3ebeb;
     --login-btn-border:#fb6376;
     --login-btn-bg-color-hover: #e63961;
     --footer-bg-color: #023047;
@@ -86,7 +86,7 @@ body{
     color: var(--primary-color);
 }
 .navigation-container{
-    background-color: var(--navigation-container-bg);
+    background-color: var(--background-color);
     box-shadow: 10px 10px 10px -12px var(--navigation-container-shadow);
     color: var(--primary-color);
     display: flex;
@@ -104,7 +104,7 @@ body{
     margin: 1rem auto 1rem 4.8rem;
 }
 .navigation-container .link{
-    background-color: var(--navigation-container-bg);
+    background-color: var(--background-color);
     color: var(--navigation-color);
     font-size: 1.8rem;
 }
@@ -173,6 +173,7 @@ ul{
 
 /* login-signup */
 .login-signup-page{
+    background-color: var(--login-signup-page);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -196,7 +197,7 @@ ul{
 /* footer-section */
 .footer{
     background-color: var(--footer-bg-color);
-    color: var(--navigation-container-bg);
+    color: var(--background-color);
     font-size: 2rem;
     height: 14rem;
     display: flex;
