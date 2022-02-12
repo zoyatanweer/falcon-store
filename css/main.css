@@ -44,75 +44,80 @@ picture {
 :root{
     --primary-color: #f72585;
     --secondary-color: #ff4d6d;
+    --background-color: #f0ecec;
+    --navigation-container-bg: #f8f9fa;
+    --navigation-container-shadow: #6c757d;
+    --navigation-color: #212529;
+    --desktop-searchbar-bg: #e9ecef; 
+    --desktop-searchbar-border: #f7f7f7;
+    --form-bg-color: #ffffff;
+    --form-input-border-color: #ced4da;
+    --login-btn-border:#fb6376;
     --login-btn-bg-color-hover: #e63961;
+    --footer-bg-color: #023047;
     font-size: 62.5%;
 }
 
 
 body{
-    background-color: #f8f9fa;
-    background-color: #f0ecec;
+    background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
-    margin:0;   
+    margin: 0;   
 }
 
 /* desktop-nav */
 .link{
-    padding:0;
-    margin-right:2.5rem;
+    padding: 0;
+    margin-right: 2.5rem;
     margin-bottom: 0;
-    text-decoration:none;
+    text-decoration: none;
 }
 .link:hover{
     color: var(--primary-color);
 }
 .list-non-bullet{
-    list-style:none; 
+    list-style: none; 
 }
 .list-item{
-    /* display:inline; */
-    padding:1.5rem;   
+    padding: 1.5rem;   
 }
 .list-item:hover{
-    font-weight:600;
+    font-weight: 600;
     color: var(--primary-color);
 }
 .navigation-container{
-    background-color: var(--primary-color);
-    background-color: #f7f7f7;
-    background-color: #f8f9fa;
-    box-shadow: 10px 10px 10px -12px #6c757d;
-
+    background-color: var(--navigation-container-bg);
+    box-shadow: 10px 10px 10px -12px var(--navigation-container-shadow);
     color: var(--primary-color);
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding:0;
+    padding: 0;
 }
 .navigation-container .nav-brand{
-    font-weight:bold;
+    font-weight: bold;
     font-size: 2.5rem;
-    text-align:left;
+    text-align: left;
 }
 .nav-brand{
-    text-align:left;
-    margin:1rem auto 1rem 4.8rem;
+    text-align: left;
+    margin: 1rem auto 1rem 4.8rem;
 }
 .navigation-container .link{
-    background-color: #f8f9fa;
-    color:black;
-    font-size:1.8rem;
+    background-color: var(--navigation-container-bg);
+    color: var(--navigation-color);
+    font-size: 1.8rem;
 }
 .link-active{
     color: var(--primary-color);
 }
 .navigation-container .nav-pills{
-    text-align:right;
+    text-align: right;
 }
 ul{
     padding-inline-start: 0px;
-    list-style:none;
-    margin-bottom:0;
+    list-style: none;
+    margin-bottom: 0;
 }
 
 /* desktop-query */
@@ -121,7 +126,7 @@ ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin:0;
+    margin: 0;
 }
 .desktop-query{
     display: flex;
@@ -131,15 +136,14 @@ ul{
     margin: 1rem auto 1rem 0.5rem;
 }
 .desktop-searchbar{
-    background-color: #e9ecef;
-    border:0px solid #f7f7f7;
+    background-color: var(--desktop-searchbar-bg);
+    border: 0px solid var(--desktop-searchbar-border);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     font-size: 1.5rem;
-    margin: 5px 15px 5px 5px;
     margin: 5px 15px 5px 0;
-    padding:5px;
-    width:20rem;
+    padding: 5px;
+    width: 20rem;
     line-height:1;
 }
 
@@ -157,14 +161,14 @@ ul{
     margin-right: 2.5rem;
 }
 .img-search{
-    background-color: #e9ecef;
+    background-color: var(--desktop-searchbar-bg);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 2.73rem;
     width: 3rem;
     margin-right:0;
     margin-bottom: 0;
-    padding:5px 5px 5px 5px;
+    padding:5px;
 }
 
 /* login-signup */
@@ -179,20 +183,20 @@ ul{
     object-fit: cover;
 }
 .login-signup-form{
-    background-color: #ffffff;
+    background-color: var(--form-bg-color);
     border-radius: 10px;  
     width: 40rem;
     text-align: center;
 }
 .form-heading{
-    color: black;
+    color: var(--navigation-color);
     font-size: 3rem;
 }
 
 /* footer-section */
 .footer{
-    background-color: #023047;
-    color:#f8f9fa;
+    background-color: var(--footer-bg-color);
+    color: var(--navigation-container-bg);
     font-size: 2rem;
     height: 14rem;
     display: flex;
@@ -205,5 +209,5 @@ ul{
     margin-bottom: 2rem;
 }
 .footer-item:hover{
-    color:#f72585;
+    color: var(--primary-color);
 }

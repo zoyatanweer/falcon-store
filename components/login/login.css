@@ -1,9 +1,10 @@
-
+/* login */
 .login-img{
     margin-left: 0;
     transform: rotate(180deg);
 }
 .login-form{
+    box-shadow: 0px 0px 10px 1px var(--navigation-container-shadow);
     height: 34rem;
     margin-top: 9rem ;
     margin-left: 8rem;
@@ -12,7 +13,7 @@
     margin-top: 5rem;
 }
 .login-email, .login-password{
-    border: 1.5px solid #ced4da;
+    border: 1.5px solid var(--form-input-border-color);
     border-radius: 6px;
     font-size: 1.2rem;
     height: 4rem;
@@ -21,9 +22,9 @@
 }
 .login-btn{
     background-color: var(--primary-color);
-    border: 2px solid #fb6376;
+    border: 2px solid var(--primary-color);
     border-radius: 5px;
-    color: #f7f7f7;
+    color: var(--desktop-searchbar-border);
     font-size: 1.6rem;
     margin:2rem;
     padding: 10px;
@@ -31,7 +32,7 @@
 }
 .login-btn:hover{
     background-color: var(--login-btn-bg-color-hover);
-    border: 2px solid #e63961;
+    border: 2px solid var(--login-btn-bg-color-hover);
     cursor: pointer;
 }
 .login-para{
@@ -42,7 +43,7 @@
     text-decoration: none;
 }
 .login-link:hover{
-    color: #e63961;
+    color: var(--login-btn-bg-color-hover);
 }
 .right-nav-img:hover{
     color:var(--primary-color);
