@@ -1,0 +1,5 @@
+@import url("https://falcon-ui-zoya.netlify.app/styles.css");
+@import url("./css/main.css");
+@import url("./components/homepage/homepage.css");
+@import url("./components/login/login.css");
+@import url("./components/signup/signup.css");
