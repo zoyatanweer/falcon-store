@@ -9,16 +9,17 @@
 .wishlist-title, .wishlisted-total{
     color: var(--primary-color);
     font-size: 3rem;
-    margin: 4rem;
-}
-.wishlisted-total{
-    color: var(--navigation-color);
-    font-size: 2rem;
+    margin: 2rem 4rem 4rem 4rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+.wishlisted-total{
+    color: var(--navigation-color);
+    font-size: 2rem;
+    margin-top: 4rem;
+} 
 
 /* badge-on wishlist */
 .btn-icon-wishlist, .btn-icon-cart{
@@ -26,15 +27,13 @@
     border: solid var(--primary-color);
     color: var(--background-color);
     font-size: 1.5rem;
-    top:7px;
+    /* top:7px; */
     height: 2rem;
     width: 2rem;
-}
-.btn-icon-wishlist{
-    left: 117.3rem;
-}
-.btn-icon-cart{
-    left:122.5rem;
+    position: absolute;
+    top:-3px;
+    right:0;
+    left:18px;
 }
 
 /* checkout-button */
