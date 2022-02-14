@@ -160,6 +160,9 @@ ul{
     width: 3rem;
     margin-right: 2.5rem;
 }
+.right-nav-img:hover{
+    fill: var(--primary-color);
+}
 .img-search{
     background-color: var(--desktop-searchbar-bg);
     border-top-left-radius: 5px;
@@ -169,6 +172,9 @@ ul{
     margin-right:0;
     margin-bottom: 0;
     padding:5px;
+}
+.on-btn{
+    fill: var(--primary-color);
 }
 
 /* login-signup */
