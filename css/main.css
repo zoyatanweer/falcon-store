@@ -155,10 +155,16 @@ ul{
     align-items: center;
     margin: 1rem auto 1rem 0.5rem;
 }
+.single-action-btn{
+    position: relative;
+}
 .right-nav-img{
     height: 3rem;
     width: 3rem;
     margin-right: 2.5rem;
+}
+.right-nav-img:hover{
+    fill: var(--primary-color);
 }
 .img-search{
     background-color: var(--desktop-searchbar-bg);
@@ -170,7 +176,21 @@ ul{
     margin-bottom: 0;
     padding:5px;
 }
+.on-btn{
+    color: var(--primary-color);
+    fill: var(--primary-color);
+}
 
+/* wishlist */
+.single-card-btn{
+    position: relative;
+}
+.dismiss-btn{
+    position: absolute;
+    top: -228px;
+    left: 200px;
+    right: 13px;
+}
 /* login-signup */
 .login-signup-page{
     background-color: var(--login-signup-page);
