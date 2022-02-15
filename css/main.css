@@ -162,6 +162,7 @@ ul{
     height: 3rem;
     width: 3rem;
     margin-right: 2.5rem;
+    /* fill: var(--primary-color); */
 }
 .right-nav-img:hover{
     fill: var(--primary-color);
