@@ -37,7 +37,6 @@
     color: var(--primary-color);
     font-size: 2rem;
     font-weight: 500;
-    /* width: 40rem; */
 }
 .cart-total-section{
     background-color: white;
@@ -60,7 +59,6 @@
     color: var(--btn-success-bg-color);
 }
 .total-convenience-number{
-    color: var(--alert-danger-bg-color);
     color: var(--password-wrong-color);
 }
 .cart-divider{
@@ -70,10 +68,12 @@
     background-color: var(--primary-color);
     color: var(--background-color);
     font-size: 1.8rem;
-    padding:5px;
     width: 100%;
 }
 .order-btn:hover{
     background-color: var(--login-btn-bg-color-hover);
 
+}
+.font-size-cart{
+    font-size: 1.5rem;
 }
