@@ -162,7 +162,6 @@ ul{
     height: 3rem;
     width: 3rem;
     margin-right: 2.5rem;
-    /* fill: var(--primary-color); */
 }
 .right-nav-img:hover{
     fill: var(--primary-color);
@@ -188,9 +187,9 @@ ul{
 }
 .dismiss-btn{
     position: absolute;
-    top: -228px;
-    left: 200px;
-    right: 13px;
+    top: -22.8rem;
+    left: 20rem;
+    right: 1.3rem;
 }
 
 /* cart */
@@ -202,7 +201,6 @@ ul{
     color: var(--primary-color);
     width: 100%;
     margin:3px;
-    /* height: 100%; */
 }
 .qty-number{
     border: 1px solid var(--primary-color);
