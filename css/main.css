@@ -155,7 +155,7 @@ ul{
     align-items: center;
     margin: 1rem auto 1rem 0.5rem;
 }
-.single-action-btn{
+.single-action-btn, .profile{
     position: relative;
 }
 .right-nav-img{
@@ -252,16 +252,24 @@ ul{
     background-color: var(--footer-bg-color);
     color: var(--background-color);
     font-size: 2rem;
-    height: 14rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 16rem;
+    padding: 12rem;
     text-align: center;
 }
 .footer-title{
     font-weight: 400;
     margin-bottom: 2rem;
 }
+.footer-contact{
+    font-weight: 400;
+}
 .footer-item:hover{
     color: var(--primary-color);
+}
+.footer-svg{
+    fill: var(--background-color);
+    color: var(--background-color);
 }

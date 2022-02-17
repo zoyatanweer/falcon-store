@@ -4,9 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- css file -->
+    <link href="../../styles.css" rel="stylesheet">
+    <title>Falcon Store | Home</title>
 </head>
 <body>
-    
+    <nav class="navigation-container">
+        <div class="nav-brand">Falcon Store</div>
+            <li class="list-item list-non-bullet">
+                <a class="link link-active" href="/index.html">HOME</a>
+            </li>
+            <li class="list-item list-non-bullet">
+                <a class="link" href="../products/products.html">PRODUCTS</a>
+            </li>
+          <div class="right-nav">
+            <div class="desktop-query">
+                <img class="right-nav-img img-search" src="./components/assets/svg/search_black_24dp.svg">
+                <input class="desktop-searchbar" type="text" placeholder="Search for products">
+            </div>
+            <div class="desktop-action-btn">
+              <div class="single-action-btn profile">
+                <a href="">
+                  <svg class="right-nav-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/></svg>
+                </a>
+                <div class="profile-menu">
+                    <li class="profile-dropdown">My Profile</li>
+                    <li class="profile-dropdown">
+                        <a href="./components/login/login.html">Login</a>
+                    </li>
+                    <li class="profile-dropdown">
+                        <a href="./components/signup/signup.html">Signup</a>
+                    </li>
+                    <li class="profile-dropdown">Logout</li>
+                </div>
+              </div>
+              <div class="single-action-btn">
+                <a href="../wishlist/wishlist.html">
+                  <svg class="right-nav-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/></svg>
+                  <!-- <button class="btn-icon btn-icon-wishlist">4</button> -->
+                </a>
+              </div>
+              <div class="single-action-btn">
+                <a href="../cart/cart.html">
+                  <svg class="right-nav-img" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                  <!-- <button class="btn-icon btn-icon-cart">3</button> -->
+                </a>
+              </div>
+            </div>
+          </div>
+    </nav>
+
+    <!-- homepage -->
+    <section class="homepage-content">
+            <div class="homepage-header">
+                <h1 class="homepage-title">END OF SEASON SALE</h1>
+                <h2 class="homepage-desc">Upto <span class="homepage-span">50% off</span> on the products</h2>
+                <a href="./components/products/products.html">
+                    <button class="btn btn-primary shop-btn">SHOP NOW</button>
+                </a>
+            </div>
+            <img class="image-cover" src="./components/assets/images/Doutor_Estranho_no_Multiverso_da_Loucura_ganha_trailer_completo__veja-removebg-preview.png">        
+    </section>
+
+    <!-- featured-categories -->
+    <section class="featured-categories">
+        <h1 class="featured-title">
+            <svg class="featured-svg"xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24"/><path d="M21.6,18.2L13,11.75v-0.91c1.65-0.49,2.8-2.17,2.43-4.05c-0.26-1.31-1.3-2.4-2.61-2.7C10.54,3.57,8.5,5.3,8.5,7.5h2 C10.5,6.67,11.17,6,12,6s1.5,0.67,1.5,1.5c0,0.84-0.69,1.52-1.53,1.5C11.43,8.99,11,9.45,11,9.99v1.76L2.4,18.2 C1.63,18.78,2.04,20,3,20h9h9C21.96,20,22.37,18.78,21.6,18.2z M6,18l6-4.5l6,4.5H6z"/></g></svg>
+            <!-- <svg class="featured-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#888888" d="M21.6 18.2L13 11.75v-.91a3.496 3.496 0 0 0-.18-6.75c-1.76-.4-3.37.53-4.02 1.98c-.3.67.18 1.43.91 1.43c.39 0 .75-.22.9-.57A1.5 1.5 0 0 1 12 6c.83 0 1.5.67 1.5 1.5c0 .84-.69 1.52-1.53 1.5c-.54-.01-.97.45-.97.99v1.76L2.4 18.2c-.77.58-.36 1.8.6 1.8h18c.96 0 1.37-1.22.6-1.8zM6 18l6-4.5l6 4.5H6z"></path></svg> -->
+            FEATURED CATEGORIES</h1>
+        <div class="featured-product-type">
+            <div class="featured-type">
+                <li class="list-item list-non-bullet">
+                    <a href="./components/products/products.html">
+                        <img class="avatar-round avatar-xlg featured-img" src="./components/assets/images/download.jpg">
+                        <div class="featured-product-title">T-shirt</div>
+                    </a>
+                </li>
+            </div>
+            <div class="featured-type">
+                <li class="list-item list-non-bullet">
+                    <a href="./components/products/products.html">
+                        <img class="avatar-round avatar-xlg featured-img" src="./components/assets/images/1639399142_5592242.jpg">
+                        <div class="featured-product-title">Hoodies</div>
+                    </a>
+                </li>
+            </div>
+            <div class="featured-type">
+                <li class="list-item list-non-bullet">
+                    <a href="./components/products/products.html">
+                        <img class="avatar-round avatar-xlg featured-img" src="./components/assets/images/51-mhz-uxl-sl1100--500x500.jpg">
+                        <div class="featured-product-title">Keychains</div>
+                    </a>
+                </li>
+            </div>
+            <div class="featured-type">
+                <li class="list-item list-non-bullet">
+                    <a href="./components/products/products.html">
+                        <img class="avatar-round avatar-xlg featured-img" src="./components/assets/images/loki-believe-mug.jpg">
+                        <div class="featured-product-title">Mugs</div>
+                    </a>
+                </li>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-header">
+            <h5 class="footer-title typography-h5">Made with ❤️ by Zoya Tanweer</h5>
+            <h6 class="footer-contact typography-h6">Contact me
+                <ul>
+                    <li class="list-item footer-item list-non-bullet">
+                        <a class="link" href="https://github.com/zoyatanweer">github</a>
+                    </li>
+                    <li class="list-item footer-item list-non-bullet">
+                        <a class="link" href="https://www.linkedin.com/in/zoya-tanweer-9440431b9/">linkedin</a>
+                    </li>
+                    <li class="list-item footer-item list-non-bullet">
+                        <a class="link" href="https://twitter.com/ItsZoya28">twitter</a>
+                    </li>
+                </ul>
+                <br>
+                <svg class="footer-svg"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="#888888" d="M10.08 10.86c.05-.33.16-.62.3-.87s.34-.46.59-.62c.24-.15.54-.22.91-.23c.23.01.44.05.63.13c.2.09.38.21.52.36s.25.33.34.53s.13.42.14.64h1.79c-.02-.47-.11-.9-.28-1.29s-.4-.73-.7-1.01s-.66-.5-1.08-.66s-.88-.23-1.39-.23c-.65 0-1.22.11-1.7.34s-.88.53-1.2.92s-.56.84-.71 1.36S8 11.29 8 11.87v.27c0 .58.08 1.12.23 1.64s.39.97.71 1.35s.72.69 1.2.91c.48.22 1.05.34 1.7.34c.47 0 .91-.08 1.32-.23s.77-.36 1.08-.63s.56-.58.74-.94s.29-.74.3-1.15h-1.79c-.01.21-.06.4-.15.58s-.21.33-.36.46s-.32.23-.52.3c-.19.07-.39.09-.6.1c-.36-.01-.66-.08-.89-.23c-.25-.16-.45-.37-.59-.62s-.25-.55-.3-.88s-.08-.67-.08-1v-.27c0-.35.03-.68.08-1.01zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z"></path></svg>
+                2022 | zoyatanweer 
+            </h6>
+                
+        </div>
+    </footer>
+
+
 </body>
 </html>
