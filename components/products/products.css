@@ -102,3 +102,7 @@
     left:89.5rem;
     top:179rem;
 }
+.discount-percent{
+    color: var(--btn-success-bg-color);
+    font-weight: 500;
+}
