@@ -49,6 +49,7 @@ picture {
     --navigation-color: #212529;
     --desktop-searchbar-bg: #e9ecef; 
     --desktop-searchbar-border: #f7f7f7;
+    --card-shadow: #adb5bd;
     --form-bg-color: #ffffff;
     --form-input-border-color: #ced4da;
     --login-signup-page: #f3ebeb;
@@ -272,4 +273,10 @@ ul{
 .footer-svg{
     fill: var(--background-color);
     color: var(--background-color);
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
