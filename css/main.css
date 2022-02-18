@@ -49,6 +49,7 @@ picture {
     --navigation-color: #212529;
     --desktop-searchbar-bg: #e9ecef; 
     --desktop-searchbar-border: #f7f7f7;
+    --card-shadow: #adb5bd;
     --form-bg-color: #ffffff;
     --form-input-border-color: #ced4da;
     --login-signup-page: #f3ebeb;
@@ -155,7 +156,7 @@ ul{
     align-items: center;
     margin: 1rem auto 1rem 0.5rem;
 }
-.single-action-btn{
+.single-action-btn, .profile{
     position: relative;
 }
 .right-nav-img{
@@ -252,16 +253,30 @@ ul{
     background-color: var(--footer-bg-color);
     color: var(--background-color);
     font-size: 2rem;
-    height: 14rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 16rem;
+    padding: 12rem;
     text-align: center;
 }
 .footer-title{
     font-weight: 400;
     margin-bottom: 2rem;
 }
+.footer-contact{
+    font-weight: 400;
+}
 .footer-item:hover{
     color: var(--primary-color);
+}
+.footer-svg{
+    fill: var(--background-color);
+    color: var(--background-color);
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
